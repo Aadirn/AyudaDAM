@@ -1,0 +1,1 @@
+"nombre":"Pericolo Spalotes","telefono":"666548721","fechaNacimiento": {"dia":20,"mes":12,"anho":1966},"tipo":a},"nombre":"Merche Roma","telefono":"658936777","fechaNacimiento": {"dia":1,"mes":3,"anho":1999},"tipo":f},"nombre":"Pepito Grillo","telefono":"611235455","fechaNacimiento": {"dia":7,"mes":5,"anho":2001},"tipo":a},

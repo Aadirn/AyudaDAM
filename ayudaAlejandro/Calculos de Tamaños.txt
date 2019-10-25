@@ -1,0 +1,10 @@
+1024 x 768 = 786.432 pixeles
+
+B/N -> 786.432 pixeles x 1 bit/pixel = 786.432 bits -> 768.432/8 Bytes = 98.304 Bytes = 96 KB
+
+16 colores -> 786.432 pixeles x 4 bit/pixel = 3.145.728 bits -> 3.145.728/8 Bytes = 393.216 Bytes = 384 KB
+
+256 colores -> 786.432 pixeles x 1 Byte/pixel = 786.432 Bytes -> 768 KB
+
+24 bits -> 786.432 pixeles x 24 bits/pixel = 18.874.368 bits -> 18.874.368/8 Bytes = 2.359.296 Bytes = 2304 KB = 2,25 MB  
+24 bits -> 786.432 pixeles x 3 Byte/pixel = 2.359.296 Bytes = 2304 KB = 2,25 MB

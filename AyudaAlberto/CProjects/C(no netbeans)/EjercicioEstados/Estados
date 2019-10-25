@@ -1,0 +1,81 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define TRUE 1
+#define FALSE 0
+
+int muestraSituacionEsperaEvento(char estado){
+	int lx,ly;
+	int evento;
+	switch(estado){
+		case 'A':
+			lx=0; ly=0;
+			break;
+		case 'B':
+			lx=1; ly=0;
+			break;
+		case 'C':
+			lx=1; ly=1;
+			break;
+	}
+	printf("Estado actual:%c   LX:%d   LY:%d  Nuevo evento(1,2)?:",estado,lx,ly);
+	scanf("%d",&evento);
+	
+	return evento;	
+}
+
+char evaluaNuevoEstado(char estadoActual, int evento){
+		
+		char estadoSiguiente;
+		
+		switch(estadoActual){
+			case 'A':
+				switch(evento){
+					case 1:
+						estadoSiguiente = 'B';
+						break;
+					case 2:
+						estadoSiguiente = 'A';
+						break;
+				}
+				break;
+			case 'B':
+				switch(evento){
+					case 1:
+						estadoSiguiente = 'C';
+						break;
+					case 2:
+						estadoSiguiente = 'A';
+						break;
+				}
+				break;
+			case 'C':
+				switch(evento){
+					case 1:
+						estadoSiguiente = 'C';
+						break;
+					case 2:
+						estadoSiguiente = 'A';
+						break;
+				}
+				break;
+		}
+		
+		return estadoSiguiente;	
+}
+
+int main(int argc, char *argv[]) {
+	
+	char estado; //A, B, C	
+	int evento;
+	
+	//Inicializamos estado='A'
+	estado = 'A';
+	do{
+		evento = muestraSituacionEsperaEvento(estado);
+		estado = evaluaNuevoEstado(estado,evento);			
+							
+	}while(TRUE);
+	
+	system("pause");	
+	return 0;
+}

@@ -1,0 +1,7 @@
+
+
+Win+R: abrir ventana ejecucion windows
+Win+D:Escritorio
+psvm+tab: escribe metodo main
+para ver todas las opciones de una variable, despues del punto presionamos ctr+spc
+Ctr+shift+i==importar

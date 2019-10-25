@@ -1,0 +1,1 @@
+{"contactos":[{"nombre":"Pericolo Spalotes","telefono":666548721,"fechaNacimiento":{"dia":20,"mes":12,"anho":1966},"tipo":"a"},{"nombre":"Puto Json","telefono":365587454,"fechaNacimiento":{"dia":1,"mes":2,"anho":2003},"tipo":"e"}]}

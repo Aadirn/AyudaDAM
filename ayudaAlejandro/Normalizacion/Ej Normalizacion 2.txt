@@ -1,0 +1,38 @@
+PRODUCTOS
+cod_producto		nombre_producto		cod_repuesto		nombre_repuesto		cantidad_necesaria
+111			Aspirador X10		1D4F45			Tubo			1
+222			Lavadora HI		U567T			Motor			1
+333			Televisor LCD		GF567			Conector		3
+333			Televisor LCD		KI75T			Soporte			1
+
+---------------------1FN-------------------------------------------------------------------------------------------
+
+PRODUCTOS
+cod_producto		nombre_producto
+111			Aspirador X1
+222			Lavadora HI
+333			Televisor LCD
+
+
+REPUESTOS
+cod_producto		cod_repuesto		nombre_repuesto		cantidad_necesaria
+111			1D4F45			Tubo			1
+222			U567T			Motor			1
+333			GF567			Conector		3
+333			KI75T			Soporte			1
+
+
+----------------------------------2FN-------------------------------------------------------------------------------
+
+cod_producto		cod_repuesto		cantidad_necesaria
+111			1D4F45			1
+222			U567T			1
+333			GF567			3
+333			KI75T			1
+
+
+cod_repuesto		nombre_repuesto	
+1D4F45			Tubo
+U567T			Motor
+GF567			Conector
+KI75T			Soporte

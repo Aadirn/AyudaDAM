@@ -1,0 +1,90 @@
+FACTURAS
+num_factura		fecha_factura		nombre_cliente		direccion_cliente	nombre_mascota		procedimiento		importe
+1111 			01/10/18 		Pepe 			C/ Sol, 5 		Toby 			Vacuna			30
+															rabia
+
+1111 			01/10/18 		Pepe 			C/ Sol, 5 		Huesos 			Vacuna			30
+															rabia
+
+2222 			10/10/18 		Elena 			C/ Ministerio,4		Miau 			Curar pata		55
+															rota
+
+---------------------------------1FN-------------------------------------------------------------------------------------------------------------------
+
+CLIENTES
+num_factura		fecha_factura		nombre_cliente		direccion_cliente
+1111 			01/10/18 		Pepe 			C/ Sol, 5 
+													
+
+2222 			10/10/18 		Elena 			C/ Ministerio,4
+
+
+
+
+LINEAS_FACTURAS
+num_factura		nombre_mascota		procedimiento		importe
+1111 			Toby 			Vacuna			30
+						rabia
+
+1111 			Huesos 			Vacuna			30
+						rabia
+
+2222 			Miau 			Curar pata		55
+						rota
+---------------------------------2FN-------------------------------------------------------------------------------------------------------------------
+Clientes->fecha, cliente, direccion; cumple 2FN. numfactura, nombre_mascota ->procedimiento
+
+
+
+PROCEDIMIENTOS
+procedimiento		importe
+Vacuna			30
+rabia
+
+Vacuna			30
+rabia
+
+Curar pata		55
+rota
+
+
+
+LINEA_FACTURA
+num_factura		nombre_mascota		procedimiento		importe
+1111 			Toby 			Vacuna			30
+						rabia
+
+1111 			Huesos 			Vacuna			30
+						rabia
+
+2222 			Miau 			Curar pata		55
+						rota
+			
+---------------------------------3FN-------------------------------------------------------------------------------------------------------------------
+PROCEDIMIENTOS: proc->importe ESTÁ EN 3FN. LINEA_FACTURA no hay atributos no principales, está en 3FN. FACTURAS num_factura -> fecha, cliente -> direccion . Es transitiva, no está en 3FN
+
+FACTURAS
+num_factura		fecha_factura		nombre_cliente
+1111 			01/10/18		Pepe 
+
+
+2222 			10/10/18		Elena 
+
+
+
+
+CLIENTES
+nombre_cliente		direccion_cliente
+Pepe 			C/ Sol, 5 		
+
+
+Elena 			C/ Ministerio,4
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="JBDC">
+            <file>file:/C:/Users/Castelao/PatronesDaoAndFactory/src/patronesdaoandfactory/entities/Cliente.java</file>
+            <file>file:/C:/Users/Castelao/PatronesDaoAndFactory/src/patronesdaoandfactory/daos/ClienteDao.java</file>
+            <file>file:/C:/Users/Castelao/PatronesDaoAndFactory/src/patronesdaoandfactory/daos/SqlserverEmpleadoDao.java</file>
+            <file>file:/C:/Users/Castelao/PatronesDaoAndFactory/src/patronesdaoandfactory/factories/MemoryDaoFactory.java</file>
+            <file>file:/C:/Users/Castelao/PatronesDaoAndFactory/src/patronesdaoandfactory/entities/Empleado.java</file>
+            <file>file:/C:/Users/Castelao/PatronesDaoAndFactory/src/patronesdaoandfactory/factories/EmpleadoDaoStaticFactory.java</file>
+            <file>file:/C:/Users/Castelao/PatronesDaoAndFactory/src/patronesdaoandfactory/daos/MysqlEmpleadoDao.java</file>
+            <file>file:/C:/Users/Castelao/PatronesDaoAndFactory/src/patronesdaoandfactory/factories/MysqlDaoFactory.java</file>
+            <file>file:/C:/Users/Castelao/PatronesDaoAndFactory/src/patronesdaoandfactory/daos/MysqlClienteDao.java</file>
+            <file>file:/C:/Users/Castelao/PatronesDaoAndFactory/src/patronesdaoandfactory/daos/EmpleadoDao.java</file>
+            <file>file:/C:/Users/Castelao/PatronesDaoAndFactory/src/patronesdaoandfactory/daos/InMemoryEmpleadoDao.java</file>
+            <file>file:/C:/Users/Castelao/PatronesDaoAndFactory/src/patronesdaoandfactory/daos/FileEmpleadoDao.java</file>
+            <file>file:/C:/Users/Castelao/PatronesDaoAndFactory/src/patronesdaoandfactory/factories/DaoFactory.java</file>
+            <file>file:/C:/Users/Castelao/PatronesDaoAndFactory/src/patronesdaoandfactory/factories/FileDaoFactory.java</file>
+            <file>file:/C:/Users/Castelao/PatronesDaoAndFactory/src/patronesdaoandfactory/Main.java</file>
+        </group>
+    </open-files>
+</project-private>
